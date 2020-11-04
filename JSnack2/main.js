@@ -15,14 +15,14 @@ $(document).ready(function() {
         var numero1 = parseInt(prompt('Inserisci un numero tra 0 e 4'));
         var numero2 = parseInt(prompt('Inserisci un altro numero tra 0 e 4'));
 
-        console.log(numero1);
-        console.log(numero2);
+        // console.log(numero1);
+        // console.log(numero2);
 
+        var nomiFiltrati = [];
         var nomiFiltrati = nomi.filter((element,index) => {
-        if (index < 4) {
-        nomeCorrente = element;
+        return 0 <= index && 4 >= index;
 
-}
 });
-    console.log(nomeCorrente);
+    console.log(nomi);
+    console.log(nomiFiltrati);
 })
