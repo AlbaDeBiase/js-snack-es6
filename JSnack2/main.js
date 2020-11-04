@@ -19,10 +19,11 @@ $(document).ready(function() {
         // console.log(numero2);
 
         var nomiFiltrati = [];
-        var nomiFiltrati = nomi.filter((element,index) => {
-        return 0 <= index && 4 >= index;
+
+        var nuoviNomiFiltrati = nomi.filter((element,index) => {
+        return numero1 <= index && numero2 >= index;
 
 });
     console.log(nomi);
-    console.log(nomiFiltrati);
+    console.log(nuoviNomiFiltrati);
 })
