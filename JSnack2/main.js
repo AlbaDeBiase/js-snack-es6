@@ -23,7 +23,8 @@ $(document).ready(function() {
         var nuoviNomiFiltrati = nomi.filter((element,index) => {
         return numero1 <= index && numero2 >= index;
 
-});
+        });
+
     console.log(nomi);
     console.log(nuoviNomiFiltrati);
 })

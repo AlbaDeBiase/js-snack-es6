@@ -7,24 +7,24 @@ $(document).ready(function() {
 
 const abitazioni = [
 {
-'nome':'villa',
-'colore' : 'blu',
-'superficie' : 110
+    'nome':'villa',
+    'colore' : 'blu',
+    'superficie' : 110
 },
 {
-'nome':'attico',
-'colore' : 'verde',
-'superficie' : 160
+    'nome':'attico',
+    'colore' : 'verde',
+    'superficie' : 160
 },
 {
-'nome':'loft',
-'colore' : 'rosa',
-'superficie' : 130
+    'nome':'loft',
+    'colore' : 'rosa',
+    'superficie' : 130
 },
 {
-'nome':'mansarda',
-'colore' : 'giallo',
-'superficie' : 80
+    'nome':'mansarda',
+    'colore' : 'giallo',
+    'superficie' : 80
 }
 ];
 

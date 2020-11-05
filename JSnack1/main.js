@@ -11,19 +11,19 @@ $(document).ready(function() {
     var bici =
     [
     {
-    'nome' : 'Mountain bike',
-    'peso' : 6
+        'nome' : 'Mountain bike',
+        'peso' : 6
     },
     {
-    'nome' : 'Bmx',
-    'peso' : 5
+        'nome' : 'Bmx',
+        'peso' : 5
     },
     {
-    'nome' : 'Bici elettrica',
-    'peso' : 7
+        'nome' : 'Bici elettrica',
+        'peso' : 7
     },{
-    'nome' : 'Fat bike',
-    'peso' : 8
+        'nome' : 'Fat bike',
+        'peso' : 8
     },
     ];
 
@@ -36,8 +36,8 @@ $(document).ready(function() {
 // Ciclo tutte le bici e loro proprietà
 bici.forEach((element) => {
     if(element.peso < pesoMinimo.peso) {
-    pesoMinimo = element;
-}
+        pesoMinimo = element;
+    }
 
 });
 
